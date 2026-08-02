@@ -1,6 +1,8 @@
 package leonardo.savona.problems.p74;
 
 class Solution {
+    public static final String TITLE = "74. Search a 2D Matrix";
+
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix.length == 0) return false;
         int idxEnd = matrix.length-1;
