@@ -1,6 +1,8 @@
 package leonardo.savona.problems.p206;
 
 public class Solution {
+    public static final String TITLE = "206. Reverse Linked List";
+
     public class ListNode {
       int val;
       ListNode next;
