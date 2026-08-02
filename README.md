@@ -2,9 +2,11 @@
 
 Java solutions to [LeetCode](https://leetcode.com/) problems, organized as a Maven project with JUnit 5 tests and per-test runtime measurement.
 
+<!-- BEGIN:STATS -->
 **137** problems solved, every one covered by unit tests · Java 21
 
 103 Easy · 31 Medium · 3 Hard — [full index below](#solved-problems).
+<!-- END:STATS -->
 
 ## Project structure
 
@@ -68,6 +70,27 @@ Useful for comparing alternative approaches to the same problem, but note these 
 2. Add the `TITLE` constant.
 3. Create `src/test/java/leonardo/savona/problems/p<N>/SolutionTest.java` extending `BaseTest`, covering the typical case plus edge cases.
 4. Run `mvn test`.
+5. Run `node scripts/update-readme-index.mjs` to add the problem to the index below.
+
+## Updating the index
+
+The "Solved problems" section is generated — do not edit it by hand. Everything between the
+`<!-- BEGIN:INDEX -->` and `<!-- END:INDEX -->` markers (and the counters at the top of this
+file) is rewritten by:
+
+```bash
+node scripts/update-readme-index.mjs            # update README.md
+node scripts/update-readme-index.mjs --check    # exit 1 if the index is stale
+node scripts/update-readme-index.mjs --refresh  # refetch every cached title
+```
+
+The problem list comes from `git ls-files`, so a solution shows up only once it is committed —
+work in progress never leaks into the README. Titles and difficulties come from LeetCode's public
+problem list, `https://leetcode.com/api/problems/all/`, which needs no login. Whatever it returns
+is cached in [`scripts/leetcode-meta.json`](scripts/leetcode-meta.json), so the script only calls
+the network when it meets a problem number it has never seen, and works offline otherwise.
+
+Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 
 ## Stack
 
@@ -80,6 +103,7 @@ Useful for comparing alternative approaches to the same problem, but note these 
 
 ## Solved problems
 
+<!-- BEGIN:INDEX -->
 137 problems — 103 Easy, 31 Medium, 3 Hard. Every one has a JUnit test class.
 
 <details>
@@ -226,3 +250,4 @@ Useful for comparing alternative approaches to the same problem, but note these 
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | Easy | [`p3940`](src/main/java/leonardo/savona/problems/p3940) |
 
 </details>
+<!-- END:INDEX -->

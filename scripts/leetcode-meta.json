@@ -1,0 +1,687 @@
+{
+  "1": {
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy"
+  },
+  "2": {
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium"
+  },
+  "3": {
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Medium"
+  },
+  "7": {
+    "title": "Reverse Integer",
+    "slug": "reverse-integer",
+    "difficulty": "Medium"
+  },
+  "8": {
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium"
+  },
+  "9": {
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy"
+  },
+  "12": {
+    "title": "Integer to Roman",
+    "slug": "integer-to-roman",
+    "difficulty": "Medium"
+  },
+  "13": {
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy"
+  },
+  "14": {
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy"
+  },
+  "19": {
+    "title": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium"
+  },
+  "20": {
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy"
+  },
+  "21": {
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy"
+  },
+  "26": {
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy"
+  },
+  "27": {
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "difficulty": "Easy"
+  },
+  "28": {
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy"
+  },
+  "35": {
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy"
+  },
+  "36": {
+    "title": "Valid Sudoku",
+    "slug": "valid-sudoku",
+    "difficulty": "Medium"
+  },
+  "48": {
+    "title": "Rotate Image",
+    "slug": "rotate-image",
+    "difficulty": "Medium"
+  },
+  "49": {
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium"
+  },
+  "58": {
+    "title": "Length of Last Word",
+    "slug": "length-of-last-word",
+    "difficulty": "Easy"
+  },
+  "66": {
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy"
+  },
+  "67": {
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy"
+  },
+  "74": {
+    "title": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix",
+    "difficulty": "Medium"
+  },
+  "104": {
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  "118": {
+    "title": "Pascal's Triangle",
+    "slug": "pascals-triangle",
+    "difficulty": "Easy"
+  },
+  "119": {
+    "title": "Pascal's Triangle II",
+    "slug": "pascals-triangle-ii",
+    "difficulty": "Easy"
+  },
+  "125": {
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "difficulty": "Easy"
+  },
+  "136": {
+    "title": "Single Number",
+    "slug": "single-number",
+    "difficulty": "Easy"
+  },
+  "190": {
+    "title": "Reverse Bits",
+    "slug": "reverse-bits",
+    "difficulty": "Easy"
+  },
+  "191": {
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy"
+  },
+  "199": {
+    "title": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "difficulty": "Medium"
+  },
+  "206": {
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy"
+  },
+  "226": {
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy"
+  },
+  "242": {
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy"
+  },
+  "260": {
+    "title": "Single Number III",
+    "slug": "single-number-iii",
+    "difficulty": "Medium"
+  },
+  "268": {
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy"
+  },
+  "338": {
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy"
+  },
+  "392": {
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "difficulty": "Easy"
+  },
+  "535": {
+    "title": "Encode and Decode TinyURL",
+    "slug": "encode-and-decode-tinyurl",
+    "difficulty": "Medium"
+  },
+  "709": {
+    "title": "To Lower Case",
+    "slug": "to-lower-case",
+    "difficulty": "Easy"
+  },
+  "728": {
+    "title": "Self Dividing Numbers",
+    "slug": "self-dividing-numbers",
+    "difficulty": "Easy"
+  },
+  "756": {
+    "title": "Pyramid Transition Matrix",
+    "slug": "pyramid-transition-matrix",
+    "difficulty": "Medium"
+  },
+  "771": {
+    "title": "Jewels and Stones",
+    "slug": "jewels-and-stones",
+    "difficulty": "Easy"
+  },
+  "938": {
+    "title": "Range Sum of BST",
+    "slug": "range-sum-of-bst",
+    "difficulty": "Easy"
+  },
+  "944": {
+    "title": "Delete Columns to Make Sorted",
+    "slug": "delete-columns-to-make-sorted",
+    "difficulty": "Easy"
+  },
+  "961": {
+    "title": "N-Repeated Element in Size 2N Array",
+    "slug": "n-repeated-element-in-size-2n-array",
+    "difficulty": "Easy"
+  },
+  "980": {
+    "title": "Unique Paths III",
+    "slug": "unique-paths-iii",
+    "difficulty": "Hard"
+  },
+  "1021": {
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy"
+  },
+  "1108": {
+    "title": "Defanging an IP Address",
+    "slug": "defanging-an-ip-address",
+    "difficulty": "Easy"
+  },
+  "1161": {
+    "title": "Maximum Level Sum of a Binary Tree",
+    "slug": "maximum-level-sum-of-a-binary-tree",
+    "difficulty": "Medium"
+  },
+  "1221": {
+    "title": "Split a String in Balanced Strings",
+    "slug": "split-a-string-in-balanced-strings",
+    "difficulty": "Easy"
+  },
+  "1281": {
+    "title": "Subtract the Product and Sum of Digits of an Integer",
+    "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "difficulty": "Easy"
+  },
+  "1313": {
+    "title": "Decompress Run-Length Encoded List",
+    "slug": "decompress-run-length-encoded-list",
+    "difficulty": "Easy"
+  },
+  "1342": {
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "slug": "number-of-steps-to-reduce-a-number-to-zero",
+    "difficulty": "Easy"
+  },
+  "1365": {
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "difficulty": "Easy"
+  },
+  "1431": {
+    "title": "Kids With the Greatest Number of Candies",
+    "slug": "kids-with-the-greatest-number-of-candies",
+    "difficulty": "Easy"
+  },
+  "1448": {
+    "title": "Count Good Nodes in Binary Tree",
+    "slug": "count-good-nodes-in-binary-tree",
+    "difficulty": "Medium"
+  },
+  "1470": {
+    "title": "Shuffle the Array",
+    "slug": "shuffle-the-array",
+    "difficulty": "Easy"
+  },
+  "1480": {
+    "title": "Running Sum of 1d Array",
+    "slug": "running-sum-of-1d-array",
+    "difficulty": "Easy"
+  },
+  "1486": {
+    "title": "XOR Operation in an Array",
+    "slug": "xor-operation-in-an-array",
+    "difficulty": "Easy"
+  },
+  "1512": {
+    "title": "Number of Good Pairs",
+    "slug": "number-of-good-pairs",
+    "difficulty": "Easy"
+  },
+  "1528": {
+    "title": "Shuffle String",
+    "slug": "shuffle-string",
+    "difficulty": "Easy"
+  },
+  "1572": {
+    "title": "Matrix Diagonal Sum",
+    "slug": "matrix-diagonal-sum",
+    "difficulty": "Easy"
+  },
+  "1603": {
+    "title": "Design Parking System",
+    "slug": "design-parking-system",
+    "difficulty": "Easy"
+  },
+  "1662": {
+    "title": "Check If Two String Arrays are Equivalent",
+    "slug": "check-if-two-string-arrays-are-equivalent",
+    "difficulty": "Easy"
+  },
+  "1672": {
+    "title": "Richest Customer Wealth",
+    "slug": "richest-customer-wealth",
+    "difficulty": "Easy"
+  },
+  "1678": {
+    "title": "Goal Parser Interpretation",
+    "slug": "goal-parser-interpretation",
+    "difficulty": "Easy"
+  },
+  "1684": {
+    "title": "Count the Number of Consistent Strings",
+    "slug": "count-the-number-of-consistent-strings",
+    "difficulty": "Easy"
+  },
+  "1688": {
+    "title": "Count of Matches in Tournament",
+    "slug": "count-of-matches-in-tournament",
+    "difficulty": "Easy"
+  },
+  "1689": {
+    "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+    "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+    "difficulty": "Medium"
+  },
+  "1720": {
+    "title": "Decode XORed Array",
+    "slug": "decode-xored-array",
+    "difficulty": "Easy"
+  },
+  "1769": {
+    "title": "Minimum Number of Operations to Move All Balls to Each Box",
+    "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+    "difficulty": "Medium"
+  },
+  "1773": {
+    "title": "Count Items Matching a Rule",
+    "slug": "count-items-matching-a-rule",
+    "difficulty": "Easy"
+  },
+  "1791": {
+    "title": "Find Center of Star Graph",
+    "slug": "find-center-of-star-graph",
+    "difficulty": "Easy"
+  },
+  "1816": {
+    "title": "Truncate Sentence",
+    "slug": "truncate-sentence",
+    "difficulty": "Easy"
+  },
+  "1859": {
+    "title": "Sorting the Sentence",
+    "slug": "sorting-the-sentence",
+    "difficulty": "Easy"
+  },
+  "1863": {
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy"
+  },
+  "1920": {
+    "title": "Build Array from Permutation",
+    "slug": "build-array-from-permutation",
+    "difficulty": "Easy"
+  },
+  "1929": {
+    "title": "Concatenation of Array",
+    "slug": "concatenation-of-array",
+    "difficulty": "Easy"
+  },
+  "1979": {
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy"
+  },
+  "2000": {
+    "title": "Reverse Prefix of Word",
+    "slug": "reverse-prefix-of-word",
+    "difficulty": "Easy"
+  },
+  "2011": {
+    "title": "Final Value of Variable After Performing Operations",
+    "slug": "final-value-of-variable-after-performing-operations",
+    "difficulty": "Easy"
+  },
+  "2048": {
+    "title": "Next Greater Numerically Balanced Number",
+    "slug": "next-greater-numerically-balanced-number",
+    "difficulty": "Medium"
+  },
+  "2114": {
+    "title": "Maximum Number of Words Found in Sentences",
+    "slug": "maximum-number-of-words-found-in-sentences",
+    "difficulty": "Easy"
+  },
+  "2161": {
+    "title": "Partition Array According to Given Pivot",
+    "slug": "partition-array-according-to-given-pivot",
+    "difficulty": "Medium"
+  },
+  "2181": {
+    "title": "Merge Nodes in Between Zeros",
+    "slug": "merge-nodes-in-between-zeros",
+    "difficulty": "Medium"
+  },
+  "2220": {
+    "title": "Minimum Bit Flips to Convert Number",
+    "slug": "minimum-bit-flips-to-convert-number",
+    "difficulty": "Easy"
+  },
+  "2221": {
+    "title": "Find Triangular Sum of an Array",
+    "slug": "find-triangular-sum-of-an-array",
+    "difficulty": "Medium"
+  },
+  "2235": {
+    "title": "Add Two Integers",
+    "slug": "add-two-integers",
+    "difficulty": "Easy"
+  },
+  "2236": {
+    "title": "Root Equals Sum of Children",
+    "slug": "root-equals-sum-of-children",
+    "difficulty": "Easy"
+  },
+  "2325": {
+    "title": "Decode the Message",
+    "slug": "decode-the-message",
+    "difficulty": "Easy"
+  },
+  "2331": {
+    "title": "Evaluate Boolean Binary Tree",
+    "slug": "evaluate-boolean-binary-tree",
+    "difficulty": "Easy"
+  },
+  "2396": {
+    "title": "Strictly Palindromic Number",
+    "slug": "strictly-palindromic-number",
+    "difficulty": "Medium"
+  },
+  "2413": {
+    "title": "Smallest Even Multiple",
+    "slug": "smallest-even-multiple",
+    "difficulty": "Easy"
+  },
+  "2423": {
+    "title": "Remove Letter To Equalize Frequency",
+    "slug": "remove-letter-to-equalize-frequency",
+    "difficulty": "Easy"
+  },
+  "2433": {
+    "title": "Find The Original Array of Prefix Xor",
+    "slug": "find-the-original-array-of-prefix-xor",
+    "difficulty": "Medium"
+  },
+  "2469": {
+    "title": "Convert the Temperature",
+    "slug": "convert-the-temperature",
+    "difficulty": "Easy"
+  },
+  "2482": {
+    "title": "Difference Between Ones and Zeros in Row and Column",
+    "slug": "difference-between-ones-and-zeros-in-row-and-column",
+    "difficulty": "Medium"
+  },
+  "2520": {
+    "title": "Count the Digits That Divide a Number",
+    "slug": "count-the-digits-that-divide-a-number",
+    "difficulty": "Easy"
+  },
+  "2574": {
+    "title": "Left and Right Sum Differences",
+    "slug": "left-and-right-sum-differences",
+    "difficulty": "Easy"
+  },
+  "2610": {
+    "title": "Convert an Array Into a 2D Array With Conditions",
+    "slug": "convert-an-array-into-a-2d-array-with-conditions",
+    "difficulty": "Medium"
+  },
+  "2652": {
+    "title": "Sum Multiples",
+    "slug": "sum-multiples",
+    "difficulty": "Easy"
+  },
+  "2657": {
+    "title": "Find the Prefix Common Array of Two Arrays",
+    "slug": "find-the-prefix-common-array-of-two-arrays",
+    "difficulty": "Medium"
+  },
+  "2769": {
+    "title": "Find the Maximum Achievable Number",
+    "slug": "find-the-maximum-achievable-number",
+    "difficulty": "Easy"
+  },
+  "2798": {
+    "title": "Number of Employees Who Met the Target",
+    "slug": "number-of-employees-who-met-the-target",
+    "difficulty": "Easy"
+  },
+  "2807": {
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "slug": "insert-greatest-common-divisors-in-linked-list",
+    "difficulty": "Medium"
+  },
+  "2824": {
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "slug": "count-pairs-whose-sum-is-less-than-target",
+    "difficulty": "Easy"
+  },
+  "2894": {
+    "title": "Divisible and Non-divisible Sums Difference",
+    "slug": "divisible-and-non-divisible-sums-difference",
+    "difficulty": "Easy"
+  },
+  "2942": {
+    "title": "Find Words Containing Character",
+    "slug": "find-words-containing-character",
+    "difficulty": "Easy"
+  },
+  "3065": {
+    "title": "Minimum Operations to Exceed Threshold Value I",
+    "slug": "minimum-operations-to-exceed-threshold-value-i",
+    "difficulty": "Easy"
+  },
+  "3146": {
+    "title": "Permutation Difference between Two Strings",
+    "slug": "permutation-difference-between-two-strings",
+    "difficulty": "Easy"
+  },
+  "3190": {
+    "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+    "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+    "difficulty": "Easy"
+  },
+  "3226": {
+    "title": "Number of Bit Changes to Make Two Integers Equal",
+    "slug": "number-of-bit-changes-to-make-two-integers-equal",
+    "difficulty": "Easy"
+  },
+  "3280": {
+    "title": "Convert Date to Binary",
+    "slug": "convert-date-to-binary",
+    "difficulty": "Easy"
+  },
+  "3285": {
+    "title": "Find Indices of Stable Mountains",
+    "slug": "find-indices-of-stable-mountains",
+    "difficulty": "Easy"
+  },
+  "3289": {
+    "title": "The Two Sneaky Numbers of Digitville",
+    "slug": "the-two-sneaky-numbers-of-digitville",
+    "difficulty": "Easy"
+  },
+  "3370": {
+    "title": "Smallest Number With All Set Bits",
+    "slug": "smallest-number-with-all-set-bits",
+    "difficulty": "Easy"
+  },
+  "3427": {
+    "title": "Sum of Variable Length Subarrays",
+    "slug": "sum-of-variable-length-subarrays",
+    "difficulty": "Easy"
+  },
+  "3467": {
+    "title": "Transform Array by Parity",
+    "slug": "transform-array-by-parity",
+    "difficulty": "Easy"
+  },
+  "3498": {
+    "title": "Reverse Degree of a String",
+    "slug": "reverse-degree-of-a-string",
+    "difficulty": "Easy"
+  },
+  "3512": {
+    "title": "Minimum Operations to Make Array Sum Divisible by K",
+    "slug": "minimum-operations-to-make-array-sum-divisible-by-k",
+    "difficulty": "Easy"
+  },
+  "3516": {
+    "title": "Find Closest Person",
+    "slug": "find-closest-person",
+    "difficulty": "Easy"
+  },
+  "3541": {
+    "title": "Find Most Frequent Vowel and Consonant",
+    "slug": "find-most-frequent-vowel-and-consonant",
+    "difficulty": "Easy"
+  },
+  "3668": {
+    "title": "Restore Finishing Order",
+    "slug": "restore-finishing-order",
+    "difficulty": "Easy"
+  },
+  "3688": {
+    "title": "Bitwise OR of Even Numbers in an Array",
+    "slug": "bitwise-or-of-even-numbers-in-an-array",
+    "difficulty": "Easy"
+  },
+  "3701": {
+    "title": "Compute Alternating Sum",
+    "slug": "compute-alternating-sum",
+    "difficulty": "Easy"
+  },
+  "3721": {
+    "title": "Longest Balanced Subarray II",
+    "slug": "longest-balanced-subarray-ii",
+    "difficulty": "Hard"
+  },
+  "3760": {
+    "title": "Maximum Substrings With Distinct Start",
+    "slug": "maximum-substrings-with-distinct-start",
+    "difficulty": "Medium"
+  },
+  "3783": {
+    "title": "Mirror Distance of an Integer",
+    "slug": "mirror-distance-of-an-integer",
+    "difficulty": "Easy"
+  },
+  "3784": {
+    "title": "Minimum Deletion Cost to Make All Characters Equal",
+    "slug": "minimum-deletion-cost-to-make-all-characters-equal",
+    "difficulty": "Medium"
+  },
+  "3785": {
+    "title": "Minimum Swaps to Avoid Forbidden Values",
+    "slug": "minimum-swaps-to-avoid-forbidden-values",
+    "difficulty": "Hard"
+  },
+  "3794": {
+    "title": "Reverse String Prefix",
+    "slug": "reverse-string-prefix",
+    "difficulty": "Easy"
+  },
+  "3838": {
+    "title": "Weighted Word Mapping",
+    "slug": "weighted-word-mapping",
+    "difficulty": "Easy"
+  },
+  "3895": {
+    "title": "Count Digit Appearances",
+    "slug": "count-digit-appearances",
+    "difficulty": "Medium"
+  },
+  "3898": {
+    "title": "Find the Degree of Each Vertex",
+    "slug": "find-the-degree-of-each-vertex",
+    "difficulty": "Easy"
+  },
+  "3925": {
+    "title": "Concatenate Array With Reverse",
+    "slug": "concatenate-array-with-reverse",
+    "difficulty": "Easy"
+  },
+  "3940": {
+    "title": "Limit Occurrences in Sorted Array",
+    "slug": "limit-occurrences-in-sorted-array",
+    "difficulty": "Easy"
+  }
+}
