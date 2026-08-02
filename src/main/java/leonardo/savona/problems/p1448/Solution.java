@@ -1,5 +1,7 @@
 package leonardo.savona.problems.p1448;
 
+import leonardo.savona.problems.common.TreeNode;
+
 class Solution {
 
     public static final String TITLE = "1448. Count Good Nodes in Binary Tree";
@@ -20,18 +22,5 @@ class Solution {
         if (right != null && right.val >= max) res++;
 
         return res + goodNodes(left, max) + goodNodes(right, max);
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }

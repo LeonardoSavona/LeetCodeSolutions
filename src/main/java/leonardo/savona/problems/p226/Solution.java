@@ -1,5 +1,7 @@
 package leonardo.savona.problems.p226;
 
+import leonardo.savona.problems.common.TreeNode;
+
 class Solution {
     public static final String TITLE = "226. Invert Binary Tree";
 
@@ -14,18 +16,4 @@ class Solution {
         root.right = invertTree(left);
         return root;
     }
-
-  public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-      }
-  }
-
 }

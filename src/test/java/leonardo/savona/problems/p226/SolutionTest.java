@@ -1,6 +1,7 @@
 package leonardo.savona.problems.p226;
 
 import leonardo.savona.base.BaseTest;
+import leonardo.savona.problems.common.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -14,22 +15,22 @@ class SolutionTest extends BaseTest {
 
     private final Solution solution = new Solution();
 
-    private Solution.TreeNode node(int val) {
-        return solution.new TreeNode(val);
+    private TreeNode node(int val) {
+        return new TreeNode(val);
     }
 
-    private Solution.TreeNode node(int val, Solution.TreeNode left, Solution.TreeNode right) {
-        return solution.new TreeNode(val, left, right);
+    private TreeNode node(int val, TreeNode left, TreeNode right) {
+        return new TreeNode(val, left, right);
     }
 
     /** BFS level-order values, skipping trailing nulls. */
-    private int[] levelOrder(Solution.TreeNode root) {
+    private int[] levelOrder(TreeNode root) {
         if (root == null) return new int[0];
         List<Integer> result = new ArrayList<>();
-        Queue<Solution.TreeNode> q = new LinkedList<>();
+        Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
         while (!q.isEmpty()) {
-            Solution.TreeNode cur = q.poll();
+            TreeNode cur = q.poll();
             result.add(cur.val);
             if (cur.left != null) q.add(cur.left);
             if (cur.right != null) q.add(cur.right);
@@ -44,8 +45,8 @@ class SolutionTest extends BaseTest {
 
     @Test
     void invertTree_single() {
-        Solution.TreeNode root = node(1);
-        Solution.TreeNode result = solution.invertTree(root);
+        TreeNode root = node(1);
+        TreeNode result = solution.invertTree(root);
         assertEquals(1, result.val);
         assertNull(result.left);
         assertNull(result.right);
@@ -54,8 +55,8 @@ class SolutionTest extends BaseTest {
     @Test
     void invertTree_left_only() {
         // [1, 2] → [1, null, 2]
-        Solution.TreeNode root = node(1, node(2), null);
-        Solution.TreeNode result = solution.invertTree(root);
+        TreeNode root = node(1, node(2), null);
+        TreeNode result = solution.invertTree(root);
         assertEquals(1, result.val);
         assertNull(result.left);
         assertEquals(2, result.right.val);
@@ -64,8 +65,8 @@ class SolutionTest extends BaseTest {
     @Test
     void invertTree_right_only() {
         // [1, null, 2] → [1, 2, null]
-        Solution.TreeNode root = node(1, null, node(2));
-        Solution.TreeNode result = solution.invertTree(root);
+        TreeNode root = node(1, null, node(2));
+        TreeNode result = solution.invertTree(root);
         assertEquals(1, result.val);
         assertEquals(2, result.left.val);
         assertNull(result.right);
@@ -74,10 +75,10 @@ class SolutionTest extends BaseTest {
     @Test
     void invertTree_full() {
         // [4, 2, 7, 1, 3, 6, 9] → [4, 7, 2, 9, 6, 3, 1]
-        Solution.TreeNode root = node(4,
+        TreeNode root = node(4,
                 node(2, node(1), node(3)),
                 node(7, node(6), node(9)));
-        Solution.TreeNode result = solution.invertTree(root);
+        TreeNode result = solution.invertTree(root);
         assertEquals(4, result.val);
         assertEquals(7, result.left.val);
         assertEquals(2, result.right.val);
@@ -90,8 +91,8 @@ class SolutionTest extends BaseTest {
     @Test
     void invertTree_symmetric() {
         // [1, 2, 2] → [1, 2, 2] (unchanged values, children swapped but same)
-        Solution.TreeNode root = node(1, node(2), node(2));
-        Solution.TreeNode result = solution.invertTree(root);
+        TreeNode root = node(1, node(2), node(2));
+        TreeNode result = solution.invertTree(root);
         assertEquals(1, result.val);
         assertEquals(2, result.left.val);
         assertEquals(2, result.right.val);

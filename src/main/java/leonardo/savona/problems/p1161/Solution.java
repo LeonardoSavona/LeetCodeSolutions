@@ -1,5 +1,7 @@
 package leonardo.savona.problems.p1161;
 
+import leonardo.savona.problems.common.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,18 +42,5 @@ class Solution {
         maxLevel = Math.max(maxLevel, maxLevelSum(arr, node.left, level+1, maxLevel));
         maxLevel = Math.max(maxLevel, maxLevelSum(arr, node.right, level+1, maxLevel));
         return maxLevel;
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }
