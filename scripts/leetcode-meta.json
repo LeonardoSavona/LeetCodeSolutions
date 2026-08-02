@@ -114,6 +114,31 @@
     "slug": "search-a-2d-matrix",
     "difficulty": "Medium"
   },
+  "80": {
+    "title": "Remove Duplicates from Sorted Array II",
+    "slug": "remove-duplicates-from-sorted-array-ii",
+    "difficulty": "Medium"
+  },
+  "83": {
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "difficulty": "Easy"
+  },
+  "88": {
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy"
+  },
+  "94": {
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy"
+  },
+  "100": {
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy"
+  },
   "104": {
     "title": "Maximum Depth of Binary Tree",
     "slug": "maximum-depth-of-binary-tree",
@@ -137,6 +162,21 @@
   "136": {
     "title": "Single Number",
     "slug": "single-number",
+    "difficulty": "Easy"
+  },
+  "141": {
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy"
+  },
+  "144": {
+    "title": "Binary Tree Preorder Traversal",
+    "slug": "binary-tree-preorder-traversal",
+    "difficulty": "Easy"
+  },
+  "145": {
+    "title": "Binary Tree Postorder Traversal",
+    "slug": "binary-tree-postorder-traversal",
     "difficulty": "Easy"
   },
   "190": {
@@ -184,15 +224,30 @@
     "slug": "counting-bits",
     "difficulty": "Easy"
   },
+  "349": {
+    "title": "Intersection of Two Arrays",
+    "slug": "intersection-of-two-arrays",
+    "difficulty": "Easy"
+  },
   "392": {
     "title": "Is Subsequence",
     "slug": "is-subsequence",
+    "difficulty": "Easy"
+  },
+  "509": {
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
     "difficulty": "Easy"
   },
   "535": {
     "title": "Encode and Decode TinyURL",
     "slug": "encode-and-decode-tinyurl",
     "difficulty": "Medium"
+  },
+  "693": {
+    "title": "Binary Number with Alternating Bits",
+    "slug": "binary-number-with-alternating-bits",
+    "difficulty": "Easy"
   },
   "700": {
     "title": "Search in a Binary Search Tree",
@@ -232,6 +287,16 @@
   "961": {
     "title": "N-Repeated Element in Size 2N Array",
     "slug": "n-repeated-element-in-size-2n-array",
+    "difficulty": "Easy"
+  },
+  "965": {
+    "title": "Univalued Binary Tree",
+    "slug": "univalued-binary-tree",
+    "difficulty": "Easy"
+  },
+  "977": {
+    "title": "Squares of a Sorted Array",
+    "slug": "squares-of-a-sorted-array",
     "difficulty": "Easy"
   },
   "980": {
@@ -282,6 +347,11 @@
   "1365": {
     "title": "How Many Numbers Are Smaller Than the Current Number",
     "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "difficulty": "Easy"
+  },
+  "1379": {
+    "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+    "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
     "difficulty": "Easy"
   },
   "1431": {
@@ -404,6 +474,11 @@
     "slug": "concatenation-of-array",
     "difficulty": "Easy"
   },
+  "1935": {
+    "title": "Maximum Number of Words You Can Type",
+    "slug": "maximum-number-of-words-you-can-type",
+    "difficulty": "Easy"
+  },
   "1979": {
     "title": "Find Greatest Common Divisor of Array",
     "slug": "find-greatest-common-divisor-of-array",
@@ -417,6 +492,11 @@
   "2011": {
     "title": "Final Value of Variable After Performing Operations",
     "slug": "final-value-of-variable-after-performing-operations",
+    "difficulty": "Easy"
+  },
+  "2037": {
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
     "difficulty": "Easy"
   },
   "2048": {
@@ -479,6 +559,11 @@
     "slug": "smallest-even-multiple",
     "difficulty": "Easy"
   },
+  "2418": {
+    "title": "Sort the People",
+    "slug": "sort-the-people",
+    "difficulty": "Easy"
+  },
   "2423": {
     "title": "Remove Letter To Equalize Frequency",
     "slug": "remove-letter-to-equalize-frequency",
@@ -524,6 +609,11 @@
     "slug": "find-the-prefix-common-array-of-two-arrays",
     "difficulty": "Medium"
   },
+  "2716": {
+    "title": "Minimize String Length",
+    "slug": "minimize-string-length",
+    "difficulty": "Easy"
+  },
   "2769": {
     "title": "Find the Maximum Achievable Number",
     "slug": "find-the-maximum-achievable-number",
@@ -544,6 +634,11 @@
     "slug": "count-pairs-whose-sum-is-less-than-target",
     "difficulty": "Easy"
   },
+  "2828": {
+    "title": "Check if a String Is an Acronym of Words",
+    "slug": "check-if-a-string-is-an-acronym-of-words",
+    "difficulty": "Easy"
+  },
   "2894": {
     "title": "Divisible and Non-divisible Sums Difference",
     "slug": "divisible-and-non-divisible-sums-difference",
@@ -552,6 +647,11 @@
   "2942": {
     "title": "Find Words Containing Character",
     "slug": "find-words-containing-character",
+    "difficulty": "Easy"
+  },
+  "2974": {
+    "title": "Minimum Number Game",
+    "slug": "minimum-number-game",
     "difficulty": "Easy"
   },
   "3065": {
