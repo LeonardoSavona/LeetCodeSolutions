@@ -194,6 +194,11 @@
     "slug": "encode-and-decode-tinyurl",
     "difficulty": "Medium"
   },
+  "700": {
+    "title": "Search in a Binary Search Tree",
+    "slug": "search-in-a-binary-search-tree",
+    "difficulty": "Easy"
+  },
   "709": {
     "title": "To Lower Case",
     "slug": "to-lower-case",
@@ -257,6 +262,11 @@
   "1281": {
     "title": "Subtract the Product and Sum of Digits of an Integer",
     "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "difficulty": "Easy"
+  },
+  "1290": {
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "slug": "convert-binary-number-in-a-linked-list-to-integer",
     "difficulty": "Easy"
   },
   "1313": {

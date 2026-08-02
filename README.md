@@ -3,9 +3,9 @@
 Java solutions to [LeetCode](https://leetcode.com/) problems, organized as a Maven project with JUnit 5 tests and per-test runtime measurement.
 
 <!-- BEGIN:STATS -->
-**137** problems solved, every one covered by unit tests · Java 21
+**139** problems solved, every one covered by unit tests · Java 21
 
-103 Easy · 31 Medium · 3 Hard — [full index below](#solved-problems).
+105 Easy · 31 Medium · 3 Hard — [full index below](#solved-problems).
 <!-- END:STATS -->
 
 ## Project structure
@@ -104,7 +104,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 ## Solved problems
 
 <!-- BEGIN:INDEX -->
-137 problems — 103 Easy, 31 Medium, 3 Hard. Every one has a JUnit test class.
+139 problems — 105 Easy, 31 Medium, 3 Hard. Every one has a JUnit test class.
 
 <details>
 <summary>Show the full list</summary>
@@ -150,6 +150,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [`p338`](src/main/java/leonardo/savona/problems/p338) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [`p392`](src/main/java/leonardo/savona/problems/p392) |
 | 535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | Medium | [`p535`](src/main/java/leonardo/savona/problems/p535) |
+| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [`p700`](src/main/java/leonardo/savona/problems/p700) |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | [`p709`](src/main/java/leonardo/savona/problems/p709) |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | [`p728`](src/main/java/leonardo/savona/problems/p728) |
 | 756 | [Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/) | Medium | [`p756`](src/main/java/leonardo/savona/problems/p756) |
@@ -163,6 +164,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [`p1161`](src/main/java/leonardo/savona/problems/p1161) |
 | 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | Easy | [`p1221`](src/main/java/leonardo/savona/problems/p1221) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | [`p1281`](src/main/java/leonardo/savona/problems/p1281) |
+| 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | [`p1290`](src/main/java/leonardo/savona/problems/p1290) |
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | Easy | [`p1313`](src/main/java/leonardo/savona/problems/p1313) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | [`p1342`](src/main/java/leonardo/savona/problems/p1342) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [`p1365`](src/main/java/leonardo/savona/problems/p1365) |
