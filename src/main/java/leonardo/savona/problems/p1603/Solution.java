@@ -1,6 +1,8 @@
 package leonardo.savona.problems.p1603;
 
  class ParkingSystem {
+    public static final String TITLE = "1603. Design Parking System";
+
         int[] park;
         public ParkingSystem(int big, int medium, int small) {
             park = new int[]{big, medium, small};
