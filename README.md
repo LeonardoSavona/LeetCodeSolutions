@@ -3,9 +3,9 @@
 Java solutions to [LeetCode](https://leetcode.com/) problems, organized as a Maven project with JUnit 5 tests and per-test runtime measurement.
 
 <!-- BEGIN:STATS -->
-**159** problems solved, every one covered by unit tests · Java 21
+**170** problems solved, every one covered by unit tests · Java 21
 
-124 Easy · 32 Medium · 3 Hard — [full index below](#solved-problems).
+133 Easy · 34 Medium · 3 Hard — [full index below](#solved-problems).
 <!-- END:STATS -->
 
 ## Project structure
@@ -104,7 +104,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 ## Solved problems
 
 <!-- BEGIN:INDEX -->
-159 problems — 124 Easy, 32 Medium, 3 Hard. Every one has a JUnit test class.
+170 problems — 133 Easy, 34 Medium, 3 Hard. Every one has a JUnit test class.
 
 <details>
 <summary>Show the full list</summary>
@@ -140,6 +140,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [`p94`](src/main/java/leonardo/savona/problems/p94) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [`p100`](src/main/java/leonardo/savona/problems/p100) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [`p104`](src/main/java/leonardo/savona/problems/p104) |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [`p110`](src/main/java/leonardo/savona/problems/p110) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [`p118`](src/main/java/leonardo/savona/problems/p118) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [`p119`](src/main/java/leonardo/savona/problems/p119) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [`p125`](src/main/java/leonardo/savona/problems/p125) |
@@ -155,9 +156,11 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [`p242`](src/main/java/leonardo/savona/problems/p242) |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | [`p260`](src/main/java/leonardo/savona/problems/p260) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [`p268`](src/main/java/leonardo/savona/problems/p268) |
+| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [`p328`](src/main/java/leonardo/savona/problems/p328) |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [`p338`](src/main/java/leonardo/savona/problems/p338) |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [`p349`](src/main/java/leonardo/savona/problems/p349) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [`p392`](src/main/java/leonardo/savona/problems/p392) |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | [`p412`](src/main/java/leonardo/savona/problems/p412) |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [`p509`](src/main/java/leonardo/savona/problems/p509) |
 | 535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | Medium | [`p535`](src/main/java/leonardo/savona/problems/p535) |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | Easy | [`p693`](src/main/java/leonardo/savona/problems/p693) |
@@ -166,6 +169,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | [`p728`](src/main/java/leonardo/savona/problems/p728) |
 | 756 | [Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/) | Medium | [`p756`](src/main/java/leonardo/savona/problems/p756) |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [`p771`](src/main/java/leonardo/savona/problems/p771) |
+| 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Medium | [`p852`](src/main/java/leonardo/savona/problems/p852) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [`p938`](src/main/java/leonardo/savona/problems/p938) |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | [`p944`](src/main/java/leonardo/savona/problems/p944) |
 | 961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | [`p961`](src/main/java/leonardo/savona/problems/p961) |
@@ -243,12 +247,15 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | Easy | [`p2942`](src/main/java/leonardo/savona/problems/p2942) |
 | 2974 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | Easy | [`p2974`](src/main/java/leonardo/savona/problems/p2974) |
 | 3065 | [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/) | Easy | [`p3065`](src/main/java/leonardo/savona/problems/p3065) |
+| 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | Easy | [`p3099`](src/main/java/leonardo/savona/problems/p3099) |
 | 3146 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/) | Easy | [`p3146`](src/main/java/leonardo/savona/problems/p3146) |
+| 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | Easy | [`p3174`](src/main/java/leonardo/savona/problems/p3174) |
 | 3190 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy | [`p3190`](src/main/java/leonardo/savona/problems/p3190) |
 | 3226 | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | Easy | [`p3226`](src/main/java/leonardo/savona/problems/p3226) |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | [`p3280`](src/main/java/leonardo/savona/problems/p3280) |
 | 3285 | [Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/) | Easy | [`p3285`](src/main/java/leonardo/savona/problems/p3285) |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | Easy | [`p3289`](src/main/java/leonardo/savona/problems/p3289) |
+| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | [`p3300`](src/main/java/leonardo/savona/problems/p3300) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | Easy | [`p3370`](src/main/java/leonardo/savona/problems/p3370) |
 | 3427 | [Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/) | Easy | [`p3427`](src/main/java/leonardo/savona/problems/p3427) |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [`p3467`](src/main/java/leonardo/savona/problems/p3467) |
@@ -260,16 +267,20 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | Easy | [`p3688`](src/main/java/leonardo/savona/problems/p3688) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | Easy | [`p3701`](src/main/java/leonardo/savona/problems/p3701) |
 | 3721 | [Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii/) | Hard | [`p3721`](src/main/java/leonardo/savona/problems/p3721) |
+| 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | [`p3731`](src/main/java/leonardo/savona/problems/p3731) |
 | 3760 | [Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | Medium | [`p3760`](src/main/java/leonardo/savona/problems/p3760) |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | [`p3783`](src/main/java/leonardo/savona/problems/p3783) |
 | 3784 | [Minimum Deletion Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-deletion-cost-to-make-all-characters-equal/) | Medium | [`p3784`](src/main/java/leonardo/savona/problems/p3784) |
 | 3785 | [Minimum Swaps to Avoid Forbidden Values](https://leetcode.com/problems/minimum-swaps-to-avoid-forbidden-values/) | Hard | [`p3785`](src/main/java/leonardo/savona/problems/p3785) |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | Easy | [`p3794`](src/main/java/leonardo/savona/problems/p3794) |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | Easy | [`p3838`](src/main/java/leonardo/savona/problems/p3838) |
+| 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | Easy | [`p3894`](src/main/java/leonardo/savona/problems/p3894) |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | Medium | [`p3895`](src/main/java/leonardo/savona/problems/p3895) |
 | 3898 | [Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex/) | Easy | [`p3898`](src/main/java/leonardo/savona/problems/p3898) |
 | 3925 | [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | Easy | [`p3925`](src/main/java/leonardo/savona/problems/p3925) |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | Easy | [`p3940`](src/main/java/leonardo/savona/problems/p3940) |
+| 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | Easy | [`p3945`](src/main/java/leonardo/savona/problems/p3945) |
+| 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | Easy | [`p3959`](src/main/java/leonardo/savona/problems/p3959) |
 
 </details>
 <!-- END:INDEX -->
