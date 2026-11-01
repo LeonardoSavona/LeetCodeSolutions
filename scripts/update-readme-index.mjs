@@ -1,5 +1,6 @@
 /**
- * Regenerates the "Solved problems" index in README.md.
+ * Regenerates the "Solved problems" index in README.md, with one column per
+ * language (Java and Python).
  *
  * The list of problems comes from the files git actually tracks, so work in
  * progress that is not committed yet never shows up. Titles and difficulties
@@ -25,8 +26,35 @@ const REPO_ROOT = path.join(SCRIPT_DIR, '..');
 const README = path.join(REPO_ROOT, 'README.md');
 const CACHE = path.join(SCRIPT_DIR, 'leetcode-meta.json');
 
-const PROBLEMS_PATH = 'src/main/java/leonardo/savona/problems';
-const TESTS_PATH = 'src/test/java/leonardo/savona/problems';
+/**
+ * A problem counts as solved in a language when git tracks a path under
+ * `problems` matching `solution`, and as tested when it also tracks a path
+ * under `tests` matching `test`. Both patterns capture the problem number.
+ * `entry` is the file or folder the index links to, relative to `problems`.
+ */
+const LANGUAGES = [
+  {
+    name: 'Java',
+    version: 'Java 21',
+    testFramework: 'JUnit',
+    problems: 'java/src/main/java/leonardo/savona/problems',
+    tests: 'java/src/test/java/leonardo/savona/problems',
+    solution: /^p(\d+)\//,
+    test: /^p(\d+)\//,
+    entry: num => `p${num}`,
+  },
+  {
+    name: 'Python',
+    version: 'Python 3.10+',
+    testFramework: 'pytest',
+    problems: 'python/problems',
+    tests: 'python/tests',
+    solution: /^p(\d+)\.py$/,
+    test: /^test_p(\d+)\.py$/,
+    entry: num => `p${num}.py`,
+  },
+];
+
 const LIST_URL = 'https://leetcode.com/api/problems/all/';
 
 const CHECK = process.argv.includes('--check');
@@ -37,34 +65,36 @@ const ORDER = ['Easy', 'Medium', 'Hard'];
 
 // ─── Tracked problems ─────────────────────────────────────────────────────────
 
-/** Problem numbers that have a committed solution, sorted ascending. */
-function trackedProblems() {
-  const files = execFileSync('git', ['ls-files', PROBLEMS_PATH], {
+/** Problem numbers found in the paths git tracks under `dir`. */
+function trackedNumbers(dir, pattern) {
+  const files = execFileSync('git', ['ls-files', dir], {
     cwd: REPO_ROOT,
     encoding: 'utf8',
   }).split('\n').filter(Boolean);
 
-  const solved = new Set();
-  const tested = new Set();
-
+  const found = new Set();
   for (const file of files) {
-    const num = file.slice(PROBLEMS_PATH.length + 1).match(/^p(\d+)\//)?.[1];
-    if (num) solved.add(num);
+    const num = file.slice(dir.length + 1).match(pattern)?.[1];
+    if (num) found.add(num);
   }
+  return found;
+}
 
-  const testFiles = execFileSync('git', ['ls-files', TESTS_PATH], {
-    cwd: REPO_ROOT,
-    encoding: 'utf8',
-  }).split('\n').filter(Boolean);
+/**
+ * Every problem number solved in at least one language, sorted ascending,
+ * plus each language's own solved and tested sets.
+ */
+function trackedProblems() {
+  const languages = LANGUAGES.map(lang => ({
+    ...lang,
+    solved: trackedNumbers(lang.problems, lang.solution),
+    tested: trackedNumbers(lang.tests, lang.test),
+  }));
 
-  for (const file of testFiles) {
-    const num = file.slice(TESTS_PATH.length + 1).match(/^p(\d+)\//)?.[1];
-    if (num) tested.add(num);
-  }
-
+  const all = new Set(languages.flatMap(lang => [...lang.solved]));
   return {
-    numbers: [...solved].sort((a, b) => a - b),
-    tested,
+    numbers: [...all].sort((a, b) => a - b),
+    languages,
   };
 }
 
@@ -127,39 +157,51 @@ function replaceBlock(md, name, body) {
   return md.replace(pattern, `${start}\n${body}\n${end}`);
 }
 
-function render(numbers, tested, cache) {
+function render(numbers, languages, cache) {
   const counts = { Easy: 0, Medium: 0, Hard: 0 };
   for (const num of numbers) counts[cache[num].difficulty]++;
 
   const breakdown = ORDER.filter(d => counts[d] > 0).map(d => `${counts[d]} ${d}`);
-  const untested = numbers.filter(n => !tested.has(n));
-  const coverage = untested.length === 0
-    ? 'every one covered by unit tests'
-    : `**${numbers.length - untested.length}** covered by unit tests`;
 
+  // Coverage is per solution: a problem solved in both languages needs both tests.
+  const solutions = languages.reduce((sum, lang) => sum + lang.solved.size, 0);
+  const untested = languages.flatMap(lang =>
+    [...lang.solved].filter(n => !lang.tested.has(n)).map(n => `p${n} (${lang.name})`));
+  const coverage = untested.length === 0
+    ? 'every solution covered by unit tests'
+    : `**${solutions - untested.length}** of ${solutions} solutions covered by unit tests`;
+
+  const perLanguage = languages.map(lang => `${lang.solved.size} in ${lang.name}`).join(', ');
   const stats = [
-    `**${numbers.length}** problems solved, ${coverage} · Java 21`,
+    `**${numbers.length}** problems solved (${perLanguage}), ${coverage} · ` +
+      languages.map(lang => lang.version).join(' · '),
     '',
     `${breakdown.join(' · ')} — [full index below](#solved-problems).`,
   ].join('\n');
 
   const rows = numbers.map(num => {
     const { title, slug, difficulty } = cache[num];
+    const cells = languages.map(lang => {
+      if (!lang.solved.has(num)) return '—';
+      const entry = lang.entry(num);
+      return `[\`${entry}\`](${lang.problems}/${entry})`;
+    });
     return `| ${num} | [${title}](https://leetcode.com/problems/${slug}/) | ${difficulty} | ` +
-           `[\`p${num}\`](${PROBLEMS_PATH}/p${num}) |`;
+           `${cells.join(' | ')} |`;
   });
 
+  const frameworks = languages.map(lang => `${lang.testFramework} for ${lang.name}`).join(', ');
   const index = [
     `${numbers.length} problems — ${breakdown.join(', ')}.` +
       (untested.length === 0
-        ? ' Every one has a JUnit test class.'
-        : ` ${numbers.length - untested.length} have a JUnit test class.`),
+        ? ` Every solution has a test (${frameworks}).`
+        : ` ${solutions - untested.length} of ${solutions} solutions have a test (${frameworks}).`),
     '',
     '<details>',
     '<summary>Show the full list</summary>',
     '',
-    '| # | Problem | Difficulty | Solution |',
-    '|---|---------|------------|----------|',
+    `| # | Problem | Difficulty | ${languages.map(lang => lang.name).join(' | ')} |`,
+    `|---|---------|------------|${languages.map(lang => '-'.repeat(lang.name.length + 2)).join('|')}|`,
     ...rows,
     '',
     '</details>',
@@ -170,17 +212,19 @@ function render(numbers, tested, cache) {
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
-const { numbers, tested } = trackedProblems();
-if (numbers.length === 0) throw new Error(`No committed solutions found under ${PROBLEMS_PATH}`);
+const { numbers, languages } = trackedProblems();
+if (numbers.length === 0) {
+  throw new Error(`No committed solutions found under ${LANGUAGES.map(l => l.problems).join(' or ')}`);
+}
 
 const cache = await resolveMetadata(numbers);
-const { stats, index, untested } = render(numbers, tested, cache);
+const { stats, index, untested } = render(numbers, languages, cache);
 
 const before = fs.readFileSync(README, 'utf8');
 const after = replaceBlock(replaceBlock(before, 'STATS', stats), 'INDEX', index);
 
 if (untested.length > 0) {
-  console.warn(`Warning: no test class for ${untested.map(n => 'p' + n).join(', ')}`);
+  console.warn(`Warning: no test for ${untested.join(', ')}`);
 }
 
 if (CHECK) {

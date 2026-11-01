@@ -44,6 +44,11 @@
     "slug": "longest-common-prefix",
     "difficulty": "Easy"
   },
+  "17": {
+    "title": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "Medium"
+  },
   "19": {
     "title": "Remove Nth Node From End of List",
     "slug": "remove-nth-node-from-end-of-list",
@@ -58,6 +63,11 @@
     "title": "Merge Two Sorted Lists",
     "slug": "merge-two-sorted-lists",
     "difficulty": "Easy"
+  },
+  "22": {
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium"
   },
   "26": {
     "title": "Remove Duplicates from Sorted Array",
@@ -83,6 +93,11 @@
     "title": "Valid Sudoku",
     "slug": "valid-sudoku",
     "difficulty": "Medium"
+  },
+  "37": {
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "difficulty": "Hard"
   },
   "48": {
     "title": "Rotate Image",
@@ -112,6 +127,16 @@
   "74": {
     "title": "Search a 2D Matrix",
     "slug": "search-a-2d-matrix",
+    "difficulty": "Medium"
+  },
+  "77": {
+    "title": "Combinations",
+    "slug": "combinations",
+    "difficulty": "Medium"
+  },
+  "78": {
+    "title": "Subsets",
+    "slug": "subsets",
     "difficulty": "Medium"
   },
   "80": {
@@ -214,6 +239,11 @@
     "slug": "valid-anagram",
     "difficulty": "Easy"
   },
+  "257": {
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "difficulty": "Easy"
+  },
   "260": {
     "title": "Single Number III",
     "slug": "single-number-iii",
@@ -244,6 +274,11 @@
     "slug": "is-subsequence",
     "difficulty": "Easy"
   },
+  "401": {
+    "title": "Binary Watch",
+    "slug": "binary-watch",
+    "difficulty": "Easy"
+  },
   "412": {
     "title": "Fizz Buzz",
     "slug": "fizz-buzz",
@@ -258,6 +293,16 @@
     "title": "Encode and Decode TinyURL",
     "slug": "encode-and-decode-tinyurl",
     "difficulty": "Medium"
+  },
+  "543": {
+    "title": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  "657": {
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "difficulty": "Easy"
   },
   "693": {
     "title": "Binary Number with Alternating Bits",
@@ -288,6 +333,11 @@
     "title": "Jewels and Stones",
     "slug": "jewels-and-stones",
     "difficulty": "Easy"
+  },
+  "797": {
+    "title": "All Paths From Source to Target",
+    "slug": "all-paths-from-source-to-target",
+    "difficulty": "Medium"
   },
   "852": {
     "title": "Peak Index in a Mountain Array",
@@ -324,6 +374,16 @@
     "slug": "unique-paths-iii",
     "difficulty": "Hard"
   },
+  "997": {
+    "title": "Find the Town Judge",
+    "slug": "find-the-town-judge",
+    "difficulty": "Easy"
+  },
+  "999": {
+    "title": "Available Captures for Rook",
+    "slug": "available-captures-for-rook",
+    "difficulty": "Easy"
+  },
   "1021": {
     "title": "Remove Outermost Parentheses",
     "slug": "remove-outermost-parentheses",
@@ -338,6 +398,11 @@
     "title": "Maximum Level Sum of a Binary Tree",
     "slug": "maximum-level-sum-of-a-binary-tree",
     "difficulty": "Medium"
+  },
+  "1189": {
+    "title": "Maximum Number of Balloons",
+    "slug": "maximum-number-of-balloons",
+    "difficulty": "Easy"
   },
   "1221": {
     "title": "Split a String in Balanced Strings",
@@ -379,6 +444,11 @@
     "slug": "kids-with-the-greatest-number-of-candies",
     "difficulty": "Easy"
   },
+  "1436": {
+    "title": "Destination City",
+    "slug": "destination-city",
+    "difficulty": "Easy"
+  },
   "1448": {
     "title": "Count Good Nodes in Binary Tree",
     "slug": "count-good-nodes-in-binary-tree",
@@ -407,6 +477,11 @@
   "1528": {
     "title": "Shuffle String",
     "slug": "shuffle-string",
+    "difficulty": "Easy"
+  },
+  "1550": {
+    "title": "Three Consecutive Odds",
+    "slug": "three-consecutive-odds",
     "difficulty": "Easy"
   },
   "1572": {
@@ -454,6 +529,11 @@
     "slug": "decode-xored-array",
     "difficulty": "Easy"
   },
+  "1748": {
+    "title": "Sum of Unique Elements",
+    "slug": "sum-of-unique-elements",
+    "difficulty": "Easy"
+  },
   "1769": {
     "title": "Minimum Number of Operations to Move All Balls to Each Box",
     "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
@@ -484,6 +564,11 @@
     "slug": "sum-of-all-subset-xor-totals",
     "difficulty": "Easy"
   },
+  "1903": {
+    "title": "Largest Odd Number in String",
+    "slug": "largest-odd-number-in-string",
+    "difficulty": "Easy"
+  },
   "1920": {
     "title": "Build Array from Permutation",
     "slug": "build-array-from-permutation",
@@ -497,6 +582,11 @@
   "1935": {
     "title": "Maximum Number of Words You Can Type",
     "slug": "maximum-number-of-words-you-can-type",
+    "difficulty": "Easy"
+  },
+  "1971": {
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
     "difficulty": "Easy"
   },
   "1979": {
@@ -698,6 +788,11 @@
     "title": "Find Minimum Operations to Make All Elements Divisible by Three",
     "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
     "difficulty": "Easy"
+  },
+  "3211": {
+    "title": "Generate Binary Strings Without Adjacent Zeros",
+    "slug": "generate-binary-strings-without-adjacent-zeros",
+    "difficulty": "Medium"
   },
   "3226": {
     "title": "Number of Bit Changes to Make Two Integers Equal",
