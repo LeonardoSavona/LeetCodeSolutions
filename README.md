@@ -3,9 +3,9 @@
 Solutions to [LeetCode](https://leetcode.com/) problems in Java and Python. The Java side is a Maven project with JUnit 5 tests and per-test runtime measurement; the Python side is tested with pytest.
 
 <!-- BEGIN:STATS -->
-**189** problems solved (170 in Java, 19 in Python), every solution covered by unit tests · Java 21 · Python 3.10+
+**191** problems solved (172 in Java, 19 in Python), every solution covered by unit tests · Java 21 · Python 3.10+
 
-145 Easy · 40 Medium · 4 Hard — [full index below](#solved-problems).
+146 Easy · 41 Medium · 4 Hard — [full index below](#solved-problems).
 <!-- END:STATS -->
 
 ## Project structure
@@ -167,7 +167,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 ## Solved problems
 
 <!-- BEGIN:INDEX -->
-189 problems — 145 Easy, 40 Medium, 4 Hard. Every solution has a test (JUnit for Java, pytest for Python).
+191 problems — 146 Easy, 41 Medium, 4 Hard. Every solution has a test (JUnit for Java, pytest for Python).
 
 <details>
 <summary>Show the full list</summary>
@@ -196,6 +196,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | — | [`p37.py`](python/problems/p37.py) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [`p48`](java/src/main/java/leonardo/savona/problems/p48) | — |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [`p49`](java/src/main/java/leonardo/savona/problems/p49) | — |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [`p50`](java/src/main/java/leonardo/savona/problems/p50) | — |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | [`p58`](java/src/main/java/leonardo/savona/problems/p58) | — |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [`p66`](java/src/main/java/leonardo/savona/problems/p66) | — |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [`p67`](java/src/main/java/leonardo/savona/problems/p67) | — |
@@ -243,6 +244,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [`p771`](java/src/main/java/leonardo/savona/problems/p771) | — |
 | 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | Medium | — | [`p797.py`](python/problems/p797.py) |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Medium | [`p852`](java/src/main/java/leonardo/savona/problems/p852) | — |
+| 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | Easy | [`p897`](java/src/main/java/leonardo/savona/problems/p897) | — |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [`p938`](java/src/main/java/leonardo/savona/problems/p938) | — |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | [`p944`](java/src/main/java/leonardo/savona/problems/p944) | — |
 | 961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | [`p961`](java/src/main/java/leonardo/savona/problems/p961) | — |

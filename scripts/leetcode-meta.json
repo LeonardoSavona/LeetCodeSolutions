@@ -109,6 +109,11 @@
     "slug": "group-anagrams",
     "difficulty": "Medium"
   },
+  "50": {
+    "title": "Pow(x, n)",
+    "slug": "powx-n",
+    "difficulty": "Medium"
+  },
   "58": {
     "title": "Length of Last Word",
     "slug": "length-of-last-word",
@@ -343,6 +348,11 @@
     "title": "Peak Index in a Mountain Array",
     "slug": "peak-index-in-a-mountain-array",
     "difficulty": "Medium"
+  },
+  "897": {
+    "title": "Increasing Order Search Tree",
+    "slug": "increasing-order-search-tree",
+    "difficulty": "Easy"
   },
   "938": {
     "title": "Range Sum of BST",
