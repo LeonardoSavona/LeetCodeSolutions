@@ -4,11 +4,9 @@ target/
 !**/src/test/**/target/
 .kotlin
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+### IntelliJ IDEA / PyCharm ###
+# Any level: the root project, or java/ and python/ opened on their own
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -32,12 +30,19 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+### Python ###
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
 ### VS Code ###
 .vscode/
 
 ### Mac OS ###
 .DS_Store
-/.idea/
+
+### Local tooling ###
 /.claude/
 /node_modules/
 /leetcode-downloader.mjs

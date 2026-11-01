@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Lets tests import `problems.p543` and `common.tree_node` from this folder.
+pythonpath = ["."]
+testpaths = ["tests"]
