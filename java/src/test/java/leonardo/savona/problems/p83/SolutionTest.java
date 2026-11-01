@@ -1,7 +1,7 @@
 package leonardo.savona.problems.p83;
 
 import leonardo.savona.base.BaseTest;
-import leonardo.savona.problems.common.ListNode;
+import leonardo.savona.common.ListNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

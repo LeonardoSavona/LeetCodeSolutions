@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p1290;
 
-import leonardo.savona.problems.common.ListNode;
+import leonardo.savona.common.ListNode;
 
 class Solution {
     public static final String TITLE = "1290. Convert Binary Number in a Linked List to Integer";

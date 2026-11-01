@@ -14,13 +14,14 @@ Solutions to [LeetCode](https://leetcode.com/) problems in Java and Python. The 
 java/                               # Maven project
 ├── pom.xml
 └── src/
-    ├── main/java/leonardo/savona/problems/
+    ├── main/java/leonardo/savona/
     │   ├── common/                 # Shared data structures
     │   │   ├── ListNode.java
     │   │   └── TreeNode.java
-    │   ├── p1/Solution.java        # 1. Two Sum
-    │   ├── p2/Solution.java        # 2. Add Two Numbers
-    │   └── p<N>/...                # One package per problem
+    │   └── problems/
+    │       ├── p1/Solution.java    # 1. Two Sum
+    │       ├── p2/Solution.java    # 2. Add Two Numbers
+    │       └── p<N>/...            # One package per problem
     └── test/java/leonardo/savona/
         ├── base/
         │   ├── BaseTest.java       # Base class wiring the timing extension
@@ -50,7 +51,7 @@ class Solution {
 }
 ```
 
-LeetCode redefines `ListNode` and `TreeNode` inside every linked-list and tree problem. The `problems.common` package declares them once so solutions can import them instead of repeating the definition. The tree problems already use it; the linked-list ones still carry their own inline copy.
+LeetCode redefines `ListNode` and `TreeNode` inside every linked-list and tree problem. The `leonardo.savona.common` package declares them once so solutions can import them instead of repeating the definition. The tree problems already use it; the linked-list ones still carry their own inline copy.
 
 ### Python
 
@@ -69,7 +70,7 @@ class Solution:
         ...
 ```
 
-The tests sit in `python/tests/test_p<N>.py`. `common/tree_node.py` plays the role of `problems.common` in Java: it defines `TreeNode` once, plus `build_tree`, which turns LeetCode's level-order notation (`[1, 2, None, 3]`) into a tree for the tests.
+The tests sit in `python/tests/test_p<N>.py`. `common/tree_node.py` plays the role of `leonardo.savona.common` in Java: it defines `TreeNode` once, plus `build_tree`, which turns LeetCode's level-order notation (`[1, 2, None, 3]`) into a tree for the tests.
 
 ## Requirements
 

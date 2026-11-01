@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p1379;
 
-import leonardo.savona.problems.common.TreeNode;
+import leonardo.savona.common.TreeNode;
 
 class Solution {
     public static final String TITLE = "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree";

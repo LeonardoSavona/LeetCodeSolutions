@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p100;
 
-import leonardo.savona.problems.common.TreeNode;
+import leonardo.savona.common.TreeNode;
 
 class Solution {
     public static final String TITLE = "100. Same Tree";

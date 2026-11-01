@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p1448;
 
-import leonardo.savona.problems.common.TreeNode;
+import leonardo.savona.common.TreeNode;
 
 class Solution {
 

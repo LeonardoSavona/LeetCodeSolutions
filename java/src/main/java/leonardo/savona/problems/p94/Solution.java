@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p94;
 
-import leonardo.savona.problems.common.TreeNode;
+import leonardo.savona.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

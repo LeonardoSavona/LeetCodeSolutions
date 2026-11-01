@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p141;
 
-import leonardo.savona.problems.common.ListNode;
+import leonardo.savona.common.ListNode;
 
 public class Solution {
     public static final String TITLE = "141. Linked List Cycle";

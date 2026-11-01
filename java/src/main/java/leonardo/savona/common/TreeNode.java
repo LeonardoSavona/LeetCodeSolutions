@@ -1,4 +1,4 @@
-package leonardo.savona.problems.common;
+package leonardo.savona.common;
 
 public class TreeNode {
     public int val;

@@ -1,7 +1,7 @@
 package leonardo.savona.problems.p2331;
 
 import leonardo.savona.base.BaseTest;
-import leonardo.savona.problems.common.TreeNode;
+import leonardo.savona.common.TreeNode;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

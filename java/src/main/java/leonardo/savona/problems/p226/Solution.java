@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p226;
 
-import leonardo.savona.problems.common.TreeNode;
+import leonardo.savona.common.TreeNode;
 
 class Solution {
     public static final String TITLE = "226. Invert Binary Tree";

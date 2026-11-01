@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p1161;
 
-import leonardo.savona.problems.common.TreeNode;
+import leonardo.savona.common.TreeNode;
 
 /**
  * Definition for a binary tree node.

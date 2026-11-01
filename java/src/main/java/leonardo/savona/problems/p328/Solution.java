@@ -1,6 +1,6 @@
 package leonardo.savona.problems.p328;
 
-import leonardo.savona.problems.common.ListNode;
+import leonardo.savona.common.ListNode;
 
 class Solution {
     public static final String TITLE = "328. Odd Even Linked List";
