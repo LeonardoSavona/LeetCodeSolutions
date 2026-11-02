@@ -1,7 +1,5 @@
 package leonardo.savona.problems.p2418;
 
-import java.util.Arrays;
-
 class Solution {
     public static final String TITLE = "2418. Sort the People";
 
@@ -29,9 +27,5 @@ class Solution {
             startIdx++;
         }
         return names;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution().sortPeople(new String[]{"mary", "jogn", "emma"}, new int[]{180,165,170})));
     }
 }

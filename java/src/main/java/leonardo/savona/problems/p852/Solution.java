@@ -19,8 +19,4 @@ class Solution {
         }
         return -1;
     }
-
-    public static void main(String[] args) {
-        new Solution().peakIndexInMountainArray(new int[]{55,59,63,99,97,94,84,81,79,66,40,38,33,23,22,21,17,9,7});
-    }
 }

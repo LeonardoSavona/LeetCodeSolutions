@@ -220,7 +220,11 @@ if (numbers.length === 0) {
 const cache = await resolveMetadata(numbers);
 const { stats, index, untested } = render(numbers, languages, cache);
 
-const before = fs.readFileSync(README, 'utf8');
+// Compare on LF and write back with the file's own line endings, so a CRLF
+// checkout (core.autocrlf on Windows) is not reported as out of date.
+const raw = fs.readFileSync(README, 'utf8');
+const eol = raw.includes('\r\n') ? '\r\n' : '\n';
+const before = raw.replace(/\r\n/g, '\n');
 const after = replaceBlock(replaceBlock(before, 'STATS', stats), 'INDEX', index);
 
 if (untested.length > 0) {
@@ -237,6 +241,6 @@ if (CHECK) {
 } else if (before === after) {
   console.log(`README.md already up to date (${numbers.length} problems).`);
 } else {
-  fs.writeFileSync(README, after, 'utf8');
+  fs.writeFileSync(README, after.replace(/\n/g, eol), 'utf8');
   console.log(`README.md updated (${numbers.length} problems).`);
 }

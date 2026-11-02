@@ -1,8 +1,5 @@
 package leonardo.savona.problems.p2716;
 
-import java.util.HashMap;
-import java.util.HashSet;
-
 class Solution {
     public static final String TITLE = "2716. Minimize String Length";
 

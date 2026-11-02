@@ -33,10 +33,4 @@ class Solution {
         array[len-1] = tmp;
         return min;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().minMovesToSeat(new int[]{3,1,5}, new int[]{2,7,4}));
-
-        System.out.println(new Solution().minMovesToSeat(new int[]{4,1,5,9}, new int[]{1,3,2,6}));
-    }
 }
