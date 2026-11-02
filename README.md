@@ -3,7 +3,7 @@
 Solutions to [LeetCode](https://leetcode.com/) problems in Java and Python. The Java side is a Maven project with JUnit 5 tests and per-test runtime measurement; the Python side is tested with pytest.
 
 <!-- BEGIN:STATS -->
-**191** problems solved (172 in Java, 19 in Python), every solution covered by unit tests · Java 21 · Python 3.10+
+**191** problems solved (174 in Java, 19 in Python), every solution covered by unit tests · Java 21 · Python 3.10+
 
 146 Easy · 41 Medium · 4 Hard — [full index below](#solved-problems).
 <!-- END:STATS -->
@@ -202,7 +202,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [`p67`](java/src/main/java/leonardo/savona/problems/p67) | — |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [`p74`](java/src/main/java/leonardo/savona/problems/p74) | — |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | — | [`p77.py`](python/problems/p77.py) |
-| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | — | [`p78.py`](python/problems/p78.py) |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [`p78`](java/src/main/java/leonardo/savona/problems/p78) | [`p78.py`](python/problems/p78.py) |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [`p80`](java/src/main/java/leonardo/savona/problems/p80) | — |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [`p83`](java/src/main/java/leonardo/savona/problems/p83) | — |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [`p88`](java/src/main/java/leonardo/savona/problems/p88) | — |
@@ -223,7 +223,7 @@ Requires Node 18 or newer (for global `fetch`); no npm dependencies.
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [`p206`](java/src/main/java/leonardo/savona/problems/p206) | — |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [`p226`](java/src/main/java/leonardo/savona/problems/p226) | — |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [`p242`](java/src/main/java/leonardo/savona/problems/p242) | — |
-| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | — | [`p257.py`](python/problems/p257.py) |
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | [`p257`](java/src/main/java/leonardo/savona/problems/p257) | [`p257.py`](python/problems/p257.py) |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | [`p260`](java/src/main/java/leonardo/savona/problems/p260) | — |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [`p268`](java/src/main/java/leonardo/savona/problems/p268) | — |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [`p328`](java/src/main/java/leonardo/savona/problems/p328) | — |
